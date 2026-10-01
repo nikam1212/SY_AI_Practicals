@@ -1,7 +1,10 @@
-salary(karan,90000).
-salary(shreyas,60000).
-salary(pratik,25000).
+% Facts
 
+salary(yash,90000).
+salary(rohit,60000).
+salary(karan,25000).
+
+% Rules
 
 high_salary(X) :-
     salary(X,S),
